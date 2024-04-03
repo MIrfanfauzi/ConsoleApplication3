@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication3", "ConsoleApplication3.vcxproj", "{EF79D643-A1CF-4FEC-AEFB-4725893B014F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication4", "..\ConsoleApplication4\ConsoleApplication4.vcxproj", "{86D5ABFB-E029-4CB3-9153-E3DEF98A92A7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF79D643-A1CF-4FEC-AEFB-4725893B014F} = {EF79D643-A1CF-4FEC-AEFB-4725893B014F}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dadadadd", "..\dadadadd\dadadadd.vcxproj", "{873B3AF8-7227-4DC0-91DA-360D51AF0F60}"
 EndProject
